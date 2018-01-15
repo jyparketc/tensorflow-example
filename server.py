@@ -5,5 +5,5 @@ import time
 hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 while True:
-  time.sleep(10)
   print(sess.run(hello))
+  time.sleep(10)
